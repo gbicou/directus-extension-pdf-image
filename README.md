@@ -38,6 +38,8 @@ or consult [the canvas documentation](https://www.npmjs.com/package/canvas) for 
 To use this extension, simply upload a PDF file to your Directus instance.
 The extension will automatically generate an image from the PDF file.
 
+[Play screencast](https://github.com/user-attachments/assets/0b8a1bb4-1a63-4768-92d3-7445bd77f6d7)
+
 ## License
 
 This extension is released under the [MIT License](https://github.com/gbicou/directus-extension-pdf-image/blob/main/LICENSE).
