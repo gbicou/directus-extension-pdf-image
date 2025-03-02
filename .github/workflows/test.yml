@@ -1,6 +1,9 @@
 name: Test
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - release-please--*
 
 jobs:
   test:
@@ -20,9 +23,6 @@ jobs:
 
       - name: Start services using Docker Compose
         run: docker compose -f compose.test.yaml up -d --wait
-
-      #- name: Wait for services to start
-      #  run: pnpm wait-on http://localhost:8055
 
       - name: Run tests
         run: pnpm test

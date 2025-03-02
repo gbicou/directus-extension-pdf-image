@@ -1,13 +1,12 @@
-name: Publish
+name: Build
 
 on:
-  release:
-    types:
-      - published
+  push:
+  pull_request:
 
 jobs:
-  publish:
-    name: Publish
+  build:
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
@@ -19,6 +18,3 @@ jobs:
 
       - name: Build
         run: pnpm build
-
-      - name: Publish
-        run: pnpm publish
