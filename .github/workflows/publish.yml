@@ -9,6 +9,9 @@ jobs:
   publish:
     name: Publish
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
       - uses: actions/checkout@v4
@@ -21,4 +24,4 @@ jobs:
         run: pnpm build
 
       - name: Publish
-        run: pnpm publish
+        run: pnpm publish --provenance
