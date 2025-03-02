@@ -1,8 +1,12 @@
 {
 	"name": "@bicou/directus-extension-pdf-image",
-	"description": "Please enter a description for your extension",
+	"description": "Directus extension to create a screenshot image for each uploaded PDF document",
 	"icon": "extension",
-	"version": "1.0.0",
+	"homepage": "https://github.com/gbicou/directus-extension-pdf-image",
+	"author": "Benjamin VIELLARD <bicou@bicou.com>",
+	"license": "MIT",
+	"repository": "github:gbicou/directus-extension-pdf-image",
+	"version": "0.0.0",
 	"keywords": [
 		"directus",
 		"directus-extension",
@@ -24,14 +28,32 @@
 		"link": "directus-extension link",
 		"validate": "directus-extension validate"
 	},
+	"dependencies": {
+		"pdf-to-img": "4.4.0"
+	},
 	"devDependencies": {
+		"@directus/api": "24.0.1",
 		"@directus/extensions-sdk": "13.0.3",
 		"@types/node": "^22.13.8",
 		"rollup-plugin-node-externals": "8.0.0",
 		"typescript": "^5.8.2"
 	},
 	"peerDependencies": {
+		"@directus/api": "24.0.1",
 		"@directus/extensions-sdk": "13.0.3"
 	},
-	"packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b"
+	"packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b",
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"argon2",
+			"canvas",
+			"esbuild",
+			"isolated-vm",
+			"sharp"
+		],
+		"ignoredBuiltDependencies": [
+			"oracledb",
+			"sqlite3"
+		]
+	}
 }
