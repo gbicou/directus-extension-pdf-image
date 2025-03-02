@@ -40,7 +40,7 @@
 		"dotenv": "16.4.7",
 		"rollup-plugin-node-externals": "8.0.0",
 		"typescript": "^5.8.2",
-		"vitest": "3.0.5"
+		"vitest": "3.0.7"
 	},
 	"peerDependencies": {
 		"@directus/api": "25.0.1",
