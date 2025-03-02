@@ -10,7 +10,9 @@
 	"keywords": [
 		"directus",
 		"directus-extension",
-		"directus-extension-hook"
+		"directus-extension-hook",
+		"pdf",
+		"image"
 	],
 	"type": "module",
 	"files": [
