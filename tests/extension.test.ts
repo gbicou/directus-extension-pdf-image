@@ -4,7 +4,7 @@ import {
   readAssetArrayBuffer,
   readExtensions,
   readFiles,
-  rest,
+  rest, sleep,
   staticToken,
   uploadFiles,
 } from '@directus/sdk'
@@ -41,6 +41,9 @@ describe('extension', () => {
     const uploaded = await directus.request(uploadFiles(formData))
     expect(uploaded).toBeDefined()
     expect(uploaded.filename_disk).toMatch(/\.pdf$/)
+
+    // wait for extension to process file
+    await sleep(1000)
 
     // search same filename with png
     const files = await directus.request(readFiles({
