@@ -1,0 +1,28 @@
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-node-pnpm
+        with:
+          npm-token: ${{ secrets.NPM_TOKEN }}
+
+      - name: Start services using Docker Compose
+        run: docker compose -f compose.test.yaml up -d
+
+      #- name: Wait for services to start
+      #  run: pnpm wait-on http://localhost:8055
+
+      - name: Build extension
+        run: pnpm build
+
+      - name: Run tests
+        run: pnpm test

@@ -1,0 +1,14 @@
+services:
+  directus:
+    image: directus/directus:11.4.1
+    ports:
+      - 8055:8055
+    volumes:
+      - ./:/directus/extensions/pdf-image
+    env_file: ".env.test"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://127.0.0.1:8055/server/health | grep -q '{\"status\":\"ok\"}'"]
+      interval: 1m
+      timeout: 10s
+      start_period: 30s
+      retries: 5

@@ -26,7 +26,8 @@
 		"build": "directus-extension build",
 		"dev": "directus-extension build -w --no-minify",
 		"link": "directus-extension link",
-		"validate": "directus-extension validate"
+		"validate": "directus-extension validate",
+		"test": "vitest run"
 	},
 	"dependencies": {
 		"pdf-to-img": "4.4.0"
@@ -34,9 +35,12 @@
 	"devDependencies": {
 		"@directus/api": "25.0.1",
 		"@directus/extensions-sdk": "13.0.3",
+		"@directus/sdk": "19.0.1",
 		"@types/node": "^22.13.8",
+		"dotenv": "16.4.7",
 		"rollup-plugin-node-externals": "8.0.0",
-		"typescript": "^5.8.2"
+		"typescript": "^5.8.2",
+		"vitest": "3.0.5"
 	},
 	"peerDependencies": {
 		"@directus/api": "25.0.1",
