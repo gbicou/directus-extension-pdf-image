@@ -21,6 +21,9 @@ jobs:
       - name: Build extension
         run: pnpm build
 
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
       - name: Start services using Docker Compose
         run: docker compose -f compose.test.yaml up --build --wait --detach
 
