@@ -15,14 +15,14 @@ jobs:
         with:
           npm-token: ${{ secrets.NPM_TOKEN }}
 
+      - name: Build extension
+        run: pnpm build
+
       - name: Start services using Docker Compose
         run: docker compose -f compose.test.yaml up -d --wait
 
       #- name: Wait for services to start
       #  run: pnpm wait-on http://localhost:8055
-
-      - name: Build extension
-        run: pnpm build
 
       - name: Run tests
         run: pnpm test
