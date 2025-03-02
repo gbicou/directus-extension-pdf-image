@@ -20,6 +20,8 @@ runs:
       with:
         node-version-file: ".nvmrc"
         cache: "pnpm"
+        scope: "@bicou"
+        registry-url: "https://registry.npmjs.org/"
       env:
         NODE_AUTH_TOKEN: ${{ inputs.npm-token }}
 
