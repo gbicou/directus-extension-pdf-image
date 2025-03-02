@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
   platform: 'github',
   onboarding: false,
@@ -22,3 +22,5 @@ module.exports = {
     automerge: true,
   },
 }
+
+export default config;
