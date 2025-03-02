@@ -1,0 +1,37 @@
+{
+	"name": "@bicou/directus-extension-pdf-image",
+	"description": "Please enter a description for your extension",
+	"icon": "extension",
+	"version": "1.0.0",
+	"keywords": [
+		"directus",
+		"directus-extension",
+		"directus-extension-hook"
+	],
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"directus:extension": {
+		"type": "hook",
+		"path": "dist/index.js",
+		"source": "src/index.ts",
+		"host": "^10.10.0"
+	},
+	"scripts": {
+		"build": "directus-extension build",
+		"dev": "directus-extension build -w --no-minify",
+		"link": "directus-extension link",
+		"validate": "directus-extension validate"
+	},
+	"devDependencies": {
+		"@directus/extensions-sdk": "13.0.3",
+		"@types/node": "^22.13.8",
+		"rollup-plugin-node-externals": "8.0.0",
+		"typescript": "^5.8.2"
+	},
+	"peerDependencies": {
+		"@directus/extensions-sdk": "13.0.3"
+	},
+	"packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b"
+}
