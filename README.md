@@ -24,6 +24,15 @@ To install this extension, add the package to your directus project by running t
 pnpm install @bicou/directus-extension-pdf-image
 ```
 
+## Dependencies
+
+The `pdf-to-img` package depends on the `canvas` library, which in turn requires a `cairo` installation.
+
+Due to this dependency, this extension will not function in a Directus Marketplace installation.
+
+If you encounter installation or usage issues, please verify that canvas is correctly installed
+or consult [the canvas documentation](https://www.npmjs.com/package/canvas) for further assistance.
+
 ## Usage
 
 To use this extension, simply upload a PDF file to your Directus instance.
