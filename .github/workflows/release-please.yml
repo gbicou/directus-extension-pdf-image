@@ -13,6 +13,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   release-please:
+    name: Release Please
     runs-on: ubuntu-latest
     steps:
       - uses: actions/create-github-app-token@v1
