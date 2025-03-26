@@ -37,8 +37,8 @@
 	},
 	"devDependencies": {
 		"@directus/api": "25.0.1",
-		"@directus/extensions-sdk": "13.0.3",
-		"@directus/sdk": "19.0.1",
+		"@directus/extensions-sdk": "13.0.4",
+		"@directus/sdk": "19.1.0",
 		"@eslint/js": "^9.21.0",
 		"@stylistic/eslint-plugin": "^4.1.0",
 		"@types/node": "^22.13.8",
@@ -51,7 +51,7 @@
 	},
 	"peerDependencies": {
 		"@directus/api": "25.0.1",
-		"@directus/extensions-sdk": "13.0.3"
+		"@directus/extensions-sdk": "13.0.4"
 	},
 	"publishConfig": {
 		"access": "public"
