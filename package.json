@@ -47,7 +47,7 @@
 		"rollup-plugin-node-externals": "8.0.0",
 		"typescript": "^5.8.2",
 		"typescript-eslint": "^8.25.0",
-		"vitest": "3.1.3"
+		"vitest": "3.1.4"
 	},
 	"peerDependencies": {
 		"@directus/api": "27.0.2",
