@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       pdf-to-img:
-        specifier: 4.4.0
-        version: 4.4.0(encoding@0.1.13)
+        specifier: 4.5.0
+        version: 4.5.0(encoding@0.1.13)
     devDependencies:
       '@directus/api':
         specifier: 27.1.0
@@ -4390,8 +4390,8 @@ packages:
     resolution: {integrity: sha512-vE7JKRyES09KiunauX7nd2Q9/L7lhok4smP9RZTDeD4MVs72Dp2qNFVz39Nz5a0FVEW0BJR6C0DYrq6unoziZA==}
     engines: {node: '>= 14.16'}
 
-  pdf-to-img@4.4.0:
-    resolution: {integrity: sha512-IRhRpx7dFZNwsao6yV+emUXC9Iz7CaBLUwEbCcGpHEI/frFJUYZ1SriKJNYrFCy4UbWH92anXWTatItKNSZ7hA==}
+  pdf-to-img@4.5.0:
+    resolution: {integrity: sha512-GCM2n+aYiupQmyoOmuj/0Q3Tr0hJg9iFVGiOq79y1ePF2cTGzdbPFd3lNlH1IxvqcGgQzwyo7KfNvtmefBxIiQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -11090,7 +11090,7 @@ snapshots:
 
   pathval@2.0.0: {}
 
-  pdf-to-img@4.4.0(encoding@0.1.13):
+  pdf-to-img@4.5.0(encoding@0.1.13):
     dependencies:
       canvas: 3.1.0
       pdfjs-dist: 4.2.67(encoding@0.1.13)
