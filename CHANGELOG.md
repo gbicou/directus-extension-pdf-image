@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/gbicou/directus-extension-pdf-image/compare/v0.0.4...v0.0.5) (2025-07-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency pdf-to-img to v4.5.0 ([#102](https://github.com/gbicou/directus-extension-pdf-image/issues/102)) ([d481ed8](https://github.com/gbicou/directus-extension-pdf-image/commit/d481ed8b7407c494bddec9e9469c7755e33fa4e1))
+
 ## [0.0.4](https://github.com/gbicou/directus-extension-pdf-image/compare/v0.0.3...v0.0.4) (2025-03-02)
 
 
