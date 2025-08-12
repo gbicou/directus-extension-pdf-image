@@ -36,9 +36,9 @@
 		"pdf-to-img": "4.5.0"
 	},
 	"devDependencies": {
-		"@directus/api": "28.0.2",
+		"@directus/api": "28.0.3",
 		"@directus/extensions-sdk": "14.0.0",
-		"@directus/sdk": "20.0.0",
+		"@directus/sdk": "20.0.2",
 		"@eslint/js": "^9.21.0",
 		"@stylistic/eslint-plugin": "^5.0.0",
 		"@types/node": "^22.13.8",
@@ -50,7 +50,7 @@
 		"vitest": "3.2.4"
 	},
 	"peerDependencies": {
-		"@directus/api": "28.0.2",
+		"@directus/api": "28.0.3",
 		"@directus/extensions-sdk": "14.0.0"
 	},
 	"publishConfig": {
