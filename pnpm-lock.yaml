@@ -13,14 +13,14 @@ importers:
         version: 4.5.0(encoding@0.1.13)
     devDependencies:
       '@directus/api':
-        specifier: 28.0.2
-        version: 28.0.2(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
+        specifier: 28.0.3
+        version: 28.0.3(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
       '@directus/extensions-sdk':
         specifier: 14.0.0
         version: 14.0.0(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(knex@3.1.0(mysql2@3.12.0)(pg@8.13.3)(sqlite3@5.1.7)(tedious@18.6.1))(mysql2@3.12.0)(pg@8.13.3)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(pino@9.6.0)(sqlite3@5.1.7)(tedious@18.6.1)(terser@5.39.0)(typescript@5.8.3)
       '@directus/sdk':
-        specifier: 20.0.0
-        version: 20.0.0
+        specifier: 20.0.2
+        version: 20.0.2
       '@eslint/js':
         specifier: ^9.21.0
         version: 9.29.0
@@ -314,12 +314,12 @@ packages:
     resolution: {integrity: sha512-Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==}
     engines: {node: '>=6.9.0'}
 
-  '@directus/api@28.0.2':
-    resolution: {integrity: sha512-U3IULi7kd8ZsOm/U6CpScceFuHalTqxCYhIZ4PEfmos+VCtqOjQHl1E+/B4GdHDR8Lq0ArLfTP7Dk68a9DSgOw==}
+  '@directus/api@28.0.3':
+    resolution: {integrity: sha512-HIW3FubtUJc9wEQ/BdwLKHxddX0FLOyR/i6+1JB/qa+89Rdl4zDQ3ys1CEjCdfqhIRJK2qTDCj6QCMyjJDVkbw==}
     engines: {node: '>=22'}
 
-  '@directus/app@13.11.2':
-    resolution: {integrity: sha512-s25UfCoDCTkHgppXR4ze1scJ/64jr0QejWtNLv3pRCZ/lKZMx9E5hb5FdDekd6suTCqG2d2JAshKnlx+qc+J8A==}
+  '@directus/app@13.11.3':
+    resolution: {integrity: sha512-4R3+0cp8cYRwRqEBzzlMwh1kjMQ4gkD1i0CGzWVmkBVTJmn0Vc6QbPjOjU6YmSEI7S8+nbCb8lmcwJyxc9R9lw==}
 
   '@directus/composables@11.2.0':
     resolution: {integrity: sha512-ks4Zcq+JmwShan7Ko0iH0En8eKFXptjs2NFLocBCdTKReO/0c822DtodWpYmlmMCUvO7wU39xz7IDI7SQYFNbA==}
@@ -375,8 +375,8 @@ packages:
   '@directus/schema@13.0.1':
     resolution: {integrity: sha512-kRQ8KER70RUDQL5Caao4OWlw7YQFYXM1TNS7OlwZfvPyEGqAdEIC4z3jTh5ANJpBv2b6XZk+5BMcu+ddFwJ11w==}
 
-  '@directus/sdk@20.0.0':
-    resolution: {integrity: sha512-DoKggMNaVWiKC2bU5BY+Nf6ia2Yz7hrKte0ZtSPXQVkl2mxwDtM0gLfOI6xxVY1CfnvyxJDu+d+21VjI4GYdyw==}
+  '@directus/sdk@20.0.2':
+    resolution: {integrity: sha512-eZu61BdWN1R4h6A/K3jIiZfK8WMg3z5JLDPrdGPA8ZWpXjXlR0qtPOBJ0dZFJn25C2Huu0ND6UMrFlhDgkIwyw==}
     engines: {node: '>=22'}
 
   '@directus/specs@11.1.0':
@@ -2770,8 +2770,8 @@ packages:
     resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
     engines: {node: '>=8'}
 
-  directus@11.9.2:
-    resolution: {integrity: sha512-3GQJtl1bcgprXBfA1J7fGtA4AYqCpsax7v14IvKc/iDlqbSLsSrsmMNQNSETiCYqw3DdPaKgmDifvrjOHjgF0Q==}
+  directus@11.9.3:
+    resolution: {integrity: sha512-TvVw2VVPc45ERNQoN/9vXsCf+DHDoyUopQCuOrDKEGXjMyiNuYJI50TZa6sbkOTlATN2jIRnVnk5Lk7uL5J+hg==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -6466,11 +6466,11 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@directus/api@28.0.2(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))':
+  '@directus/api@28.0.3(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))':
     dependencies:
       '@authenio/samlify-node-xmllint': 2.0.0(samlify@2.10.0)
       '@aws-sdk/client-ses': 3.758.0
-      '@directus/app': 13.11.2
+      '@directus/app': 13.11.3
       '@directus/constants': 13.0.1
       '@directus/env': 5.1.0(vue@3.5.13(typescript@5.8.3))
       '@directus/errors': 2.0.2
@@ -6517,7 +6517,7 @@ snapshots:
       date-fns: 4.1.0
       deep-diff: 1.0.2
       destroy: 1.2.0
-      directus: 11.9.2(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
+      directus: 11.9.3(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
       dotenv: 16.4.7
       encodeurl: 2.0.0
       eventemitter2: 6.4.9
@@ -6671,7 +6671,7 @@ snapshots:
       - walrus
       - whiskers
 
-  '@directus/app@13.11.2': {}
+  '@directus/app@13.11.3': {}
 
   '@directus/composables@11.2.0(vue@3.5.13(typescript@5.8.3))':
     dependencies:
@@ -6848,7 +6848,7 @@ snapshots:
       - supports-color
       - tedious
 
-  '@directus/sdk@20.0.0': {}
+  '@directus/sdk@20.0.2': {}
 
   '@directus/specs@11.1.0':
     dependencies:
@@ -9171,9 +9171,9 @@ snapshots:
 
   detect-libc@2.0.3: {}
 
-  directus@11.9.2(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)):
+  directus@11.9.3(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)):
     dependencies:
-      '@directus/api': 28.0.2(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
+      '@directus/api': 28.0.3(@types/node@22.16.0)(@unhead/vue@1.11.20(vue@3.5.13(typescript@5.8.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3)))(terser@5.39.0)(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
       '@directus/update-check': 13.0.1
     transitivePeerDependencies:
       - '@types/node'
