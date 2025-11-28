@@ -33,7 +33,7 @@
 		"lint": "eslint"
 	},
 	"dependencies": {
-		"pdf-to-img": "^4.5.0"
+		"pdf-to-img": "^5.0.0"
 	},
 	"devDependencies": {
 		"@directus/api": "32.1.1",
