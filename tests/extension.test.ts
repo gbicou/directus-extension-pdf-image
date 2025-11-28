@@ -56,7 +56,7 @@ describe('extension', () => {
     expect(files[0]?.title).toMatch(uploaded.title)
 
     const image = await directus.request(readAssetArrayBuffer(files[0]?.id))
-    expect(image.byteLength).toMatchInlineSnapshot(`195477`)
+    expect(image.byteLength).toMatchInlineSnapshot(`222347`)
 
     const expected = readFileSync(path.join(__dirname, 'sample.png'))
     expect(image.byteLength).toEqual(expected.byteLength)
