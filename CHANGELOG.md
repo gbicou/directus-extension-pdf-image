@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.8](https://github.com/gbicou/directus-extension-pdf-image/compare/v0.0.7...v0.0.8) (2025-11-28)
+
+
+### Bug Fixes
+
+* add npm upgrade step to setup-node-pnpm action ([2eee5c2](https://github.com/gbicou/directus-extension-pdf-image/commit/2eee5c235ba8608056dea535ab12687d89b45e54))
+
 ## [0.0.7](https://github.com/gbicou/directus-extension-pdf-image/compare/v0.0.6...v0.0.7) (2025-11-28)
 
 
