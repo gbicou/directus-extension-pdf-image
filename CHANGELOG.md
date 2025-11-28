@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.7](https://github.com/gbicou/directus-extension-pdf-image/compare/v0.0.6...v0.0.7) (2025-11-28)
+
+
+### Bug Fixes
+
+* adjust publish workflow permissions and add no-git-checks flag ([5766364](https://github.com/gbicou/directus-extension-pdf-image/commit/5766364b8f86ee8c20d00bd6914eaba7be5248d1))
+
 ## [0.0.6](https://github.com/gbicou/directus-extension-pdf-image/compare/v0.0.5...v0.0.6) (2025-11-28)
 
 
