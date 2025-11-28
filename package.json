@@ -6,7 +6,7 @@
 	"author": "Benjamin VIELLARD <bicou@bicou.com>",
 	"license": "MIT",
 	"repository": "github:gbicou/directus-extension-pdf-image",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"keywords": [
 		"directus",
 		"directus-extension",
