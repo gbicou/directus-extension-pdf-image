@@ -36,9 +36,9 @@
 		"pdf-to-img": "^5.0.0"
 	},
 	"devDependencies": {
-		"@directus/api": "32.1.1",
-		"@directus/extensions-sdk": "17.0.3",
-		"@directus/sdk": "20.2.0",
+		"@directus/api": "32.2.0",
+		"@directus/extensions-sdk": "17.0.4",
+		"@directus/sdk": "20.3.0",
 		"@eslint/js": "9.39.2",
 		"@stylistic/eslint-plugin": "5.6.1",
 		"@types/node": "22.19.3",
