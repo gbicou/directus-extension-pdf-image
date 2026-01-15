@@ -37,7 +37,7 @@
 	},
 	"devDependencies": {
 		"@directus/api": "32.2.0",
-		"@directus/extensions-sdk": "17.0.4",
+		"@directus/extensions-sdk": "17.0.5",
 		"@directus/sdk": "20.3.0",
 		"@eslint/js": "9.39.2",
 		"@stylistic/eslint-plugin": "5.6.1",
