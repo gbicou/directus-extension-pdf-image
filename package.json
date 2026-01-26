@@ -40,7 +40,7 @@
 		"@directus/extensions-sdk": "17.0.4",
 		"@directus/sdk": "20.3.0",
 		"@eslint/js": "9.39.2",
-		"@stylistic/eslint-plugin": "5.6.1",
+		"@stylistic/eslint-plugin": "5.7.1",
 		"@types/node": "22.19.3",
 		"dotenv": "17.2.3",
 		"eslint": "9.39.2",
