@@ -17,7 +17,7 @@ importers:
         version: 33.3.1(@types/node@22.19.15)(@unhead/vue@1.11.20(vue@3.5.24(typescript@5.9.3)))(encoding@0.1.13)(lodash@4.17.21)(pinia@2.3.1(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3)))(terser@5.39.0)(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3))(yaml@2.8.1)
       '@directus/extensions-sdk':
         specifier: 17.0.9
-        version: 17.0.9(@types/node@22.19.15)(@unhead/vue@1.11.20(vue@3.5.24(typescript@5.9.3)))(deep-diff@1.0.2)(express@4.21.2)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(mysql2@3.15.3)(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pinia@2.3.1(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3)))(pino@9.7.0)(sharp@0.34.5)(sqlite3@5.1.7)(tedious@18.6.1)(terser@5.39.0)(tsx@4.20.6)(typescript@5.9.3)(ws@8.18.3)(yaml@2.8.1)
+        version: 17.0.9(@types/node@22.19.15)(@unhead/vue@1.11.20(vue@3.5.24(typescript@5.9.3)))(deep-diff@1.0.2)(express@5.2.1)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pinia@2.3.1(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3)))(pino@9.7.0)(sharp@0.34.5)(terser@5.39.0)(tsx@4.20.6)(typescript@5.9.3)(ws@8.18.3)(yaml@2.8.1)
       '@directus/sdk':
         specifier: 21.1.0
         version: 21.1.0
@@ -25,8 +25,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1(eslint@10.0.3)
       '@stylistic/eslint-plugin':
-        specifier: 5.9.0
-        version: 5.9.0(eslint@10.0.3)
+        specifier: 5.10.0
+        version: 5.10.0(eslint@10.0.3)
       '@types/node':
         specifier: 22.19.15
         version: 22.19.15
@@ -2180,8 +2180,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@stylistic/eslint-plugin@5.9.0':
-    resolution: {integrity: sha512-FqqSkvDMYJReydrMhlugc71M76yLLQWNfmGq+SIlLa7N3kHp8Qq8i2PyWrVNAfjOyOIY+xv9XaaYwvVW7vroMA==}
+  '@stylistic/eslint-plugin@5.10.0':
+    resolution: {integrity: sha512-nPK52ZHvot8Ju/0A4ucSX1dcPV2/1clx0kLcH5wDmrE4naKso7TUC/voUyU1O9OTKTrR6MYip6LP0ogEMQ9jPQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
@@ -2473,11 +2473,6 @@ packages:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-
-  acorn@8.15.0:
-    resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   acorn@8.16.0:
     resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
@@ -7855,10 +7850,105 @@ snapshots:
       - ws
       - yaml
 
+  '@directus/extensions-sdk@17.0.9(@types/node@22.19.15)(@unhead/vue@1.11.20(vue@3.5.24(typescript@5.9.3)))(deep-diff@1.0.2)(express@5.2.1)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pinia@2.3.1(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3)))(pino@9.7.0)(sharp@0.34.5)(terser@5.39.0)(tsx@4.20.6)(typescript@5.9.3)(ws@8.18.3)(yaml@2.8.1)':
+    dependencies:
+      '@directus/composables': 11.2.13(vue@3.5.24(typescript@5.9.3))
+      '@directus/constants': 14.1.0
+      '@directus/extensions': 3.0.19(deep-diff@1.0.2)(express@5.2.1)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pino@9.7.0)(sharp@0.34.5)(vue@3.5.24(typescript@5.9.3))(ws@8.18.3)
+      '@directus/themes': 1.2.4(@unhead/vue@1.11.20(vue@3.5.24(typescript@5.9.3)))(pinia@2.3.1(typescript@5.9.3)(vue@3.5.24(typescript@5.9.3)))(vue@3.5.24(typescript@5.9.3))
+      '@directus/types': 14.2.1(deep-diff@1.0.2)(express@5.2.1)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pino@9.7.0)(sharp@0.34.5)(vue@3.5.24(typescript@5.9.3))(ws@8.18.3)
+      '@directus/utils': 13.2.2(vue@3.5.24(typescript@5.9.3))
+      '@rollup/plugin-commonjs': 28.0.9(rollup@4.52.5)
+      '@rollup/plugin-json': 6.1.0(rollup@4.52.5)
+      '@rollup/plugin-node-resolve': 16.0.3(rollup@4.52.5)
+      '@rollup/plugin-replace': 6.0.3(rollup@4.52.5)
+      '@rollup/plugin-terser': 0.4.4(rollup@4.52.5)
+      '@rollup/plugin-virtual': 3.0.2(rollup@4.52.5)
+      '@vitejs/plugin-vue': 6.0.1(vite@7.1.12(@types/node@22.19.15)(terser@5.39.0)(tsx@4.20.6)(yaml@2.8.1))(vue@3.5.24(typescript@5.9.3))
+      chalk: 5.6.2
+      commander: 14.0.2
+      esbuild: 0.26.0
+      execa: 9.6.0
+      fs-extra: 11.3.2
+      inquirer: 12.11.0(@types/node@22.19.15)
+      ora: 8.2.0
+      rollup: 4.52.5
+      rollup-plugin-esbuild: 6.2.1(esbuild@0.26.0)(rollup@4.52.5)
+      rollup-plugin-styler: 2.0.0(rollup@4.52.5)(typescript@5.9.3)
+      semver: 7.7.3
+      vite: 7.1.12(@types/node@22.19.15)(terser@5.39.0)(tsx@4.20.6)(yaml@2.8.1)
+      vue: 3.5.24(typescript@5.9.3)
+    transitivePeerDependencies:
+      - '@types/node'
+      - '@unhead/vue'
+      - aws-crt
+      - better-sqlite3
+      - debug
+      - deep-diff
+      - express
+      - graphql
+      - jiti
+      - knex
+      - less
+      - lightningcss
+      - mysql
+      - mysql2
+      - nodemailer
+      - openapi3-ts
+      - pg
+      - pg-native
+      - pinia
+      - pino
+      - sass
+      - sass-embedded
+      - sharp
+      - sqlite3
+      - stylus
+      - sugarss
+      - supports-color
+      - tedious
+      - terser
+      - tsx
+      - typescript
+      - vue-router
+      - ws
+      - yaml
+
   '@directus/extensions@3.0.19(deep-diff@1.0.2)(express@4.21.2)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(mysql2@3.15.3)(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pino@9.7.0)(sharp@0.34.5)(sqlite3@5.1.7)(tedious@18.6.1)(vue@3.5.24(typescript@5.9.3))(ws@8.18.3)':
     dependencies:
       '@directus/constants': 14.1.0
       '@directus/types': 14.2.1(deep-diff@1.0.2)(express@4.21.2)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(mysql2@3.15.3)(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pino@9.7.0)(sharp@0.34.5)(sqlite3@5.1.7)(tedious@18.6.1)(vue@3.5.24(typescript@5.9.3))(ws@8.18.3)
+      '@directus/utils': 13.2.2(vue@3.5.24(typescript@5.9.3))
+      '@types/express': 4.17.21
+      fs-extra: 11.3.2
+      lodash-es: 4.17.21
+      zod: 4.1.12
+    optionalDependencies:
+      knex: 3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1)
+      pino: 9.7.0
+      vue: 3.5.24(typescript@5.9.3)
+    transitivePeerDependencies:
+      - aws-crt
+      - better-sqlite3
+      - deep-diff
+      - express
+      - graphql
+      - mysql
+      - mysql2
+      - nodemailer
+      - openapi3-ts
+      - pg
+      - pg-native
+      - sharp
+      - sqlite3
+      - supports-color
+      - tedious
+      - ws
+
+  '@directus/extensions@3.0.19(deep-diff@1.0.2)(express@5.2.1)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pino@9.7.0)(sharp@0.34.5)(vue@3.5.24(typescript@5.9.3))(ws@8.18.3)':
+    dependencies:
+      '@directus/constants': 14.1.0
+      '@directus/types': 14.2.1(deep-diff@1.0.2)(express@5.2.1)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pino@9.7.0)(sharp@0.34.5)(vue@3.5.24(typescript@5.9.3))(ws@8.18.3)
       '@directus/utils': 13.2.2(vue@3.5.24(typescript@5.9.3))
       '@types/express': 4.17.21
       fs-extra: 11.3.2
@@ -8038,6 +8128,40 @@ snapshots:
     optionalDependencies:
       deep-diff: 1.0.2
       express: 4.21.2
+      graphql: 16.12.0
+      knex: 3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1)
+      nodemailer: 7.0.11
+      openapi3-ts: 4.5.0
+      pino: 9.7.0
+      sharp: 0.34.5
+      vue: 3.5.24(typescript@5.9.3)
+      ws: 8.18.3
+    transitivePeerDependencies:
+      - aws-crt
+      - better-sqlite3
+      - mysql
+      - mysql2
+      - pg
+      - pg-native
+      - sqlite3
+      - supports-color
+      - tedious
+
+  '@directus/types@14.2.1(deep-diff@1.0.2)(express@5.2.1)(graphql@16.12.0)(knex@3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1))(nodemailer@7.0.11)(openapi3-ts@4.5.0)(pg@8.16.3)(pino@9.7.0)(sharp@0.34.5)(vue@3.5.24(typescript@5.9.3))(ws@8.18.3)':
+    dependencies:
+      '@directus/ai': 1.1.0
+      '@directus/constants': 14.1.0
+      '@directus/schema': 13.0.5(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1)
+      '@sinclair/typebox': 0.34.41
+      '@types/archiver': 7.0.0
+      '@types/express': 4.17.21
+      '@types/geojson': 7946.0.16
+      '@types/nodemailer': 7.0.3
+      '@types/ws': 8.18.1
+      zod: 4.1.12
+    optionalDependencies:
+      deep-diff: 1.0.2
+      express: 5.2.1
       graphql: 16.12.0
       knex: 3.1.0(mysql2@3.15.3)(pg@8.16.3)(sqlite3@5.1.7)(tedious@18.6.1)
       nodemailer: 7.0.11
@@ -9415,7 +9539,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@stylistic/eslint-plugin@5.9.0(eslint@10.0.3)':
+  '@stylistic/eslint-plugin@5.10.0(eslint@10.0.3)':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.0.3)
       '@typescript-eslint/types': 8.56.0
@@ -9804,15 +9928,9 @@ snapshots:
       mime-types: 3.0.1
       negotiator: 1.0.0
 
-  acorn-jsx@5.3.2(acorn@8.15.0):
-    dependencies:
-      acorn: 8.15.0
-
   acorn-jsx@5.3.2(acorn@8.16.0):
     dependencies:
       acorn: 8.16.0
-
-  acorn@8.15.0: {}
 
   acorn@8.16.0: {}
 
@@ -10861,8 +10979,8 @@ snapshots:
 
   espree@10.4.0:
     dependencies:
-      acorn: 8.15.0
-      acorn-jsx: 5.3.2(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-jsx: 5.3.2(acorn@8.16.0)
       eslint-visitor-keys: 4.2.1
 
   espree@11.1.1:
