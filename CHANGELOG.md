@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.9](https://github.com/gbicou/directus-extension-pdf-image/compare/v0.0.8...v0.0.9) (2026-04-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @directus/api to v34 ([#220](https://github.com/gbicou/directus-extension-pdf-image/issues/220)) ([0afc451](https://github.com/gbicou/directus-extension-pdf-image/commit/0afc451a086bec85aac3874066b4d49c51d0b24c))
+* downgrade directus version beacuse of document bug ([05962c8](https://github.com/gbicou/directus-extension-pdf-image/commit/05962c868c7d7f4bce3903bb5c774ed9310a0a8f))
+
 ## [0.0.8](https://github.com/gbicou/directus-extension-pdf-image/compare/v0.0.7...v0.0.8) (2025-11-28)
 
 
