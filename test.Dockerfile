@@ -1,4 +1,4 @@
-FROM directus/directus:11.17.1 AS directus
+FROM directus/directus:11.17.3 AS directus
 
 # reinstall build tools with canvas dependencies
 
