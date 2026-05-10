@@ -27,9 +27,9 @@ runs:
         scope: "@bicou"
         registry-url: "https://registry.npmjs.org/"
 
-    - name: Upgrade to latest npm
-      shell: bash
-      run: npm install -g npm@latest
+#    - name: Upgrade to latest npm
+#      shell: bash
+#      run: npm install -g npm@latest
 
     - name: Install dependencies
       shell: bash
