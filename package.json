@@ -41,7 +41,7 @@
 		"@directus/sdk": "21.3.0",
 		"@eslint/js": "10.0.1",
 		"@stylistic/eslint-plugin": "5.10.0",
-		"@types/node": "22.19.18",
+		"@types/node": "24.12.4",
 		"dotenv": "17.4.2",
 		"eslint": "10.2.1",
 		"rollup-plugin-node-externals": "8.1.2",
