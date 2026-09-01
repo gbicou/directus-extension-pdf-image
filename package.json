@@ -56,7 +56,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"packageManager": "pnpm@10.34.3",
+	"packageManager": "pnpm@11.25.0",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"argon2",
